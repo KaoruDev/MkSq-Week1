@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body{
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: #ddd;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+#container{
+	border: solid black thin;
+	float: left;
+	border-radius: 20px;
+	-moz-kit-border-radius: 20px;
+	-web-kit-border-radius: 20px;
+	box-shadow: 3px 3px 20px #888;
+	background-color: #fff;
+}
+
+
+#imageHolder{
+	width: 150px;
+	height: 150px;
+	
+	border-radius: 75px;
+	-moz-kit-border-radius: 75px;
+	-web-kit-border-radius: 75px;
+	background: url(http://placekitten.com/150/150) no-repeat;
+	box-shadow: 3px 3px 20px #888;
+	margin: 5px auto;
+}
+
+nav{
+	margin-top: 5px;
+	padding: 0;
+}
+
+nav div{
+	width: 170px;
+	height: 50px;
+	padding-top: 15px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: "Open Sans", san-serif;
+}
+
+nav div#here{
+	background-color: #ff530d;
+	color: white;
+}
+
+nav div:hover{
+	background-color: #6850ff;
+}
+
+nav div:hover a{
+	color: white;
+}
+
+
+
+nav div:last-child{
+	border-radius: 0px 0px 20px 20px;
+	-web-kit:0px 0px 20px 20px;
+	-moz-border-radius: 0px 0px 20px 20px;
+}
+
+#bodyContainer{
+	background-color: #fff;
+	box-shadow: 3px 3px 10px #888;
+	border: 1px solid black;
+	padding: 5px 20px 20px 20px;
+	margin: 0 190px;
+}
+
+#twitter{
+	margin-left: 10px;
+	float: right;
+	widht: 200px;
+	border: 1px solid black;
+}
+
