@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Condiment|Open+Sans|Kavoon);
+
+p{
+	font-family: "Open Sans", sans-serif;
+}
+
+h1, h2{
+	font-family: "Kavoon", cursive;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+#harsh{
+	font-family: "Condiment", cursive;
+	font-style: italic;
+}
+
+p a{
+	font-size: 10px;
+}
+
+a:hover{
+	color: red;
+}
